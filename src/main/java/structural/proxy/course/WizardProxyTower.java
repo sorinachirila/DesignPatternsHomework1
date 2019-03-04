@@ -1,6 +1,6 @@
 package structural.proxy.course;
 
-public class WizardProxyTower implements WizardTour {
+public class WizardProxyTower implements WizardTower {
 
     private static final int NUM_WIZARDS_ALLOWED = 3;
     private int numWizards = 0;
