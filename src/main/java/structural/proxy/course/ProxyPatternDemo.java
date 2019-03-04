@@ -3,7 +3,7 @@ package structural.proxy.course;
 public class ProxyPatternDemo {
     public static void main(String[] args) {
 
-        WizardTour proxy = new WizardProxyTower(new IvoryRealTower());
+        WizardTower proxy = new WizardProxyTower(new IvoryRealTower());
         proxy.enter(new Wizard("RED wizard"));
         proxy.enter(new Wizard("GREEN wizard"));
         proxy.enter(new Wizard("BLUE wizard"));
