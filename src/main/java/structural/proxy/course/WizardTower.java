@@ -1,5 +1,5 @@
 package structural.proxy.course;
 
-public interface WizardTour {
+public interface WizardTower {
     void enter(Wizard wizard);
 }
