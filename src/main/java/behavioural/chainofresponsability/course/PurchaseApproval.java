@@ -20,8 +20,7 @@ public abstract class PurchaseApproval {
     public void processRequest(double cost) {
         if (cost < getAllowed()) {
             System.out.println(getRole() + " will approve $" + cost);
-        }
-        if (successor != null) {
+        } else if (successor != null) {
             successor.processRequest(cost);
         }
     }
